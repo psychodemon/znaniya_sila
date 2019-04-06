@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'CorkiRounded';
+    src: url('fonts/CorkiRounded.eot');
+    src: url('fonts/CorkiRounded.eot') format('embedded-opentype'),
+         url('fonts/CorkiRounded.woff2') format('woff2'),
+         url('fonts/CorkiRounded.woff') format('woff'),
+         url('fonts/CorkiRounded.ttf') format('truetype'),
+         url('fonts/CorkiRounded.svg#CorkiRounded') format('svg');
+}

@@ -1,0 +1,56 @@
+@font-face 
+{
+    font-family: 'CorkiRounded';
+    src: url('fonts/CorkiRounded.eot');
+    src: url('fonts/CorkiRounded.eot') format('embedded-opentype'),
+         url('fonts/CorkiRounded.woff2') format('woff2'),
+         url('fonts/CorkiRounded.woff') format('woff'),
+         url('fonts/CorkiRounded.ttf') format('truetype'),
+         url('fonts/CorkiRounded.svg#CorkiRounded') format('svg');
+}
+
+html,body 
+{
+    height: 100%; /* for vertical align */
+}
+body
+{
+    background-color: #000000;
+}
+
+.conteiner
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    height: 100%;
+    width: 1000px;
+}
+.content
+{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'CorkiRounded';
+}
+.text1,
+.text2 {
+    font-family: 'CorkiRounded';
+    margin: 0;
+    letter-spacing: 5px;
+}
+.text1
+{
+    font-size: 58px;    
+}
+.text2
+{
+    font-size: 41px;
+    color: #ffffff;
+}
+.inner-text
+{
+    padding-top: 30px;
+}
